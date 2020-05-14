@@ -279,3 +279,29 @@ resume .resume_left ul li{
 .resume_social{
     padding: 0 12%;
 }
+.net{
+    padding: 5px 0;
+}
+.git{
+    margin: 5px 0;
+}
+
+@media (max-width: 600px) {
+    .resume{
+        display: flex;
+        flex-direction: column;
+    }
+
+   .resume .resume_left{
+        width: 45%;
+
+    }
+
+    .resume .resume_right{
+        width: 45%;
+
+    }
+    .none{
+        display: none;
+    }
+}
